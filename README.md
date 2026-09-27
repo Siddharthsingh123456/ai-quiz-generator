@@ -1,10 +1,1 @@
-# AI Quiz Generator
-
-Create personalized quizzes from any study material.
-
-MERN + AI application using React, Express, MongoDB/Mongoose, OpenAI and Vercel.
-
-## Setup
-npm install && npm run dev
-
-Configure OPENAI_API_KEY and optionally MONGODB_URI. Never commit secrets.
+# AI Quiz Generator\n\nMERN + AI quiz creation and interactive practice application.\n\n## Features\n- Topic, question-count and difficulty controls\n- AI-generated MCQs with four options\n- Interactive answer selection and scoring\n- MongoDB persistence for generated quizzes\n- Responsive learning-focused interface\n- Node 24 + Vercel ready\n\n## Environment\nOPENAI_API_KEY=\nOPENAI_MODEL=gpt-4o-mini\nMONGODB_URI=\n\nImport into Vercel, add variables and deploy.
