@@ -53,3 +53,15 @@ body:after{background-image:radial-gradient(#ffbf3f26 1.5px,transparent 1.5px);b
 .nav nav{display:flex!important;gap:8px!important;padding:0!important;border:0!important;background:transparent!important}
 .nav nav button{position:relative!important;padding:9px 14px!important;border:2px solid #ff9e25!important;border-radius:11px!important;background:#211007!important;color:#ffd98b!important;font-family:"Bricolage Grotesque"!important;box-shadow:3px 3px 0 #8d2916!important}
 .nav nav button:hover{background:#ff9e2522!important;color:#fff2bd!important;transform:translate(-2px,-2px) rotate(-1deg)!important;box-shadow:5px 5px 0 #8d2916!important}
+
+
+/* POST-LOGIN V4 — QUIZ ARENA */
+.workspace{min-height:calc(100vh - 76px);padding:38px clamp(16px,4vw,55px) 85px;background:radial-gradient(circle at 50% 20%,#ff8a0024,transparent 32%),#0d0805}
+.workspaceHead{max-width:1420px!important;padding:20px 24px!important;border:2px solid #ff9f24!important;border-radius:18px!important;background:#1a0c05!important;box-shadow:8px 8px 0 #662015,0 28px 65px #0008!important}
+.workspaceHead h1{font-family:"Bricolage Grotesque"!important;font-size:44px!important}
+.workGrid{max-width:1420px!important;gap:22px!important}
+.tool,.result{border:2px solid #ff9f24!important;border-radius:22px!important;background:linear-gradient(145deg,#251107,#110906)!important;box-shadow:7px 8px 0 #682116,0 25px 55px #0008!important}
+.tool{padding:24px!important}.tool h2{font-family:"Bricolage Grotesque"!important;font-size:25px!important}
+.fields input,.fields textarea,.fields select{border:2px solid #8e421f!important;border-radius:14px!important;background:#0e0805!important}
+.result pre{font-family:"DM Sans"!important;color:#ffe7ad!important;font-size:12px!important}
+.primary{background:linear-gradient(135deg,#ffe27b,#ff9e25,#ff5138)!important;color:#3b1007!important;border:2px solid #ffd36b!important;box-shadow:4px 4px 0 #812616!important}
